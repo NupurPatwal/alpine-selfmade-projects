@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <h1 class="text-3xl font-bold text-center mb-8">Add Your Contacts....</h1>
+    <div class="flex flex-col space-y-4">
+      <div class="flex items-center">
+        <b class="mr-4">Name</b>
+        <input
+          type="text"
+          id="name"
+          placeholder="enter the name"
+          class="px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:ring-1 focus:ring-blue-500" />
+      </div>
+      <div class="flex items-center">
+        <b class="mr-4">Contact no.</b>
+        <input
+          type="text"
+          id="num"
+          placeholder="Enter the num"
+          class="px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:ring-1 focus:ring-blue-500" />
+      </div>
+    </div>
+    <br />
+    <div class="flex justify-center">
+      <button
+        id="button"
+        class="px-6 py-2 rounded-md bg-blue-500 text-white font-bold hover:bg-blue-700">
+        Add
+      </button>
+    </div>
+    <div id="emp-div"></div>
+  </body>
+</html>
