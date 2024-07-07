@@ -1,0 +1,22 @@
+inaug date: 06072024
+
+This folder contains projects based on local storage.
+js code written by me, adn the styling is done byy chat gpt.
+
+
+PROJECT ideas:
+1. Notes App - same as 
+
+2. Favorite Quotes - ditto
+
+3. Bookmarks Manager
+
+4. Expense Tracker
+
+5. Recipe Organizer
+
+6. BMI Calculator
+
+7. theme changer
+
+8. contact manager

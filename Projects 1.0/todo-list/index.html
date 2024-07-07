@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Not To-do List</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gradient-to-r from-neutral-300 to-stone-400 font-sans">
+    <div class="flex justify-center items-center mt-10">
+      <div
+        class="bg-gradient-to-r from-stone-500 to-stone-700 p-8 rounded-lg shadow-lg w-full max-w-md">
+        <div class="mb-4">
+          <h1
+            class="bg-gradient-to-r from-slate-500 to-slate-800 text-2xl font-bold text-white display-center p-2 rounded">
+            Not To-do List
+          </h1>
+        </div>
+        <div class="mb-4 transform -translate-y-1">
+          <input
+            type="text"
+            placeholder="Enter the 'NOT TO-DO' List"
+            id="task-inp"
+            class="border-2 border-gray-300 p-2 rounded w-full" />
+        </div>
+        <div class="mb-4 flex justify-between items-center">
+          <button
+            id="btn"
+            class="bg-gradient-to-t from-violet-900 via-violet-600 to-indigo-600 text-white px-4 py-2 rounded">
+            Add!
+          </button>
+        </div>
+        <div>
+          <h2
+            class="text-xl font-semibold mb-2 bg-gradient-to-r from-slate-500 to-slate-800 text-2xl font-bold text-white display-center p-2 rounded">
+            Tasks listed
+          </h2>
+          <div id="task-list" class="space-y-2"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./todo.js"></script>
+  </body>
+</html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-do- list</title>
+  </head>
+  <body>
+    <div>
+      <h1>Not To-do List</h1>
+    </div>
+    <div>
+      <input type="text" placeholder="Enter the TO-DO Data" id="task-inp" />
+    </div>
+    <div>
+      <button id="btn">Add!</button>
+    </div>
+    <div>
+      Tasks listed
+      <div id="task-list"></div>
+    </div>
+    <script src="./todo.js"></script>
+  </body>
+</html> -->
